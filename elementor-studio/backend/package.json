@@ -1,0 +1,30 @@
+{
+  "name": "elementor-studio-backend",
+  "version": "1.0.0",
+  "description": "Elementor Studio - Convert any website to Elementor/WordPress",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "better-sqlite3": "^11.3.0",
+    "playwright": "^1.48.0",
+    "axios": "^1.7.7",
+    "cheerio": "^1.0.0",
+    "multer": "^1.4.5-lts.1",
+    "uuid": "^10.0.0",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "slugify": "^1.6.6",
+    "sharp": "^0.33.5",
+    "winston": "^3.14.2",
+    "ws": "^8.18.0",
+    "@anthropic-ai/sdk": "^0.32.1",
+    "form-data": "^4.0.0",
+    "node-cron": "^3.0.3"
+  }
+}
